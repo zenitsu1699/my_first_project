@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
+
+Route::view('/a-propos', 'a-propos');
+
+Route::get('/inscription', 'InscriptionController@form');
+
+Route::post('/inscription', 'InscriptionController@traitement');
