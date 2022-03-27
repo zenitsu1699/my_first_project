@@ -20,3 +20,5 @@ Route::view('/a-propos', 'a-propos');
 Route::get('/inscription', 'InscriptionController@form');
 
 Route::post('/inscription', 'InscriptionController@traitement');
+
+Route::view('/anim-boat', 'animation');

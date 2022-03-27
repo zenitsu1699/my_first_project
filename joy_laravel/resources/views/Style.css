@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    overflow-y: hidden;
+}
+
+.night {
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid black;
+}
