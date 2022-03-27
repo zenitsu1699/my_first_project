@@ -22,3 +22,7 @@ Route::get('/inscription', 'InscriptionController@form');
 Route::post('/inscription', 'InscriptionController@traitement');
 
 Route::view('/anim-boat', 'animation');
+
+Route::get('/crack_me', 'JamController@form');
+
+Route::post('/crack_me', 'JamController@traitement');
